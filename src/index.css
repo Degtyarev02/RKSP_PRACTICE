@@ -47,17 +47,17 @@ code {
     transition: .3s;
 }
 
-.JokesList li:hover{
+.JokesList li:hover {
     transform: scale(1.3);
 }
 
-.Navbar_Control{
+.Navbar_Control {
     display: flex;
     text-decoration: none;
     list-style: none;
 }
 
-.Navbar_Control li a{
+.Navbar_Control li a {
     text-decoration: none;
     color: white;
     margin-right: 10px;
@@ -65,10 +65,37 @@ code {
     border-radius: 6px;
     transition: .3s;
 }
-.Navbar_Control li a:hover{
+
+.Navbar_Control li a:hover {
     background: white;
     color: #0027ff;
 }
 
+.HomeContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomeBanner{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.HomeUlLinks{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    gap: 5px;
+}
+
+.HomeUlLinks a{
+    text-decoration: none;
+    color: black;
+}
 
 
