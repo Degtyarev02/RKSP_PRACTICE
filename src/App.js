@@ -8,6 +8,8 @@ import {createStore} from "redux";
 import rootReducer from "./Utils/reducers";
 import Dialogs from "./Pages/Dialogs";
 import DialogOne from "./Pages/DialogOne";
+import Profile from "./Pages/Profile";
+
 
 function App() {
 
@@ -24,6 +26,7 @@ function App() {
                         </Route>
                         <Route path={"/license"} element={<AcceptAgreementForm/>}/>
                         <Route path={"/dialogs"} element={<Dialogs/>}/>
+                        <Route path={"/profile"} element={<Profile/>}/>
                         <Route path={"/dialogs"}>
                             <Route path={":id"} element={<DialogOne/>}/>
                         </Route>
