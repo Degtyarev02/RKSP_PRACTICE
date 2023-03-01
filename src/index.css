@@ -21,6 +21,11 @@ code {
     align-items: center;
 }
 
+.Navbar a {
+    text-decoration: none;
+    color: white;
+}
+
 .Logo {
     font-size: 25px;
     margin-left: 40px;
@@ -79,13 +84,13 @@ code {
     align-items: center;
 }
 
-.HomeBanner{
+.HomeBanner {
     text-align: center;
     font-size: 40px;
 
 }
 
-.HomeUlLinks{
+.HomeUlLinks {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -93,9 +98,41 @@ code {
     gap: 5px;
 }
 
-.HomeUlLinks a{
+.HomeUlLinks a {
     text-decoration: none;
     color: black;
+}
+
+.WrapperLicense {
+    margin: 20px;
+    width: 60%;
+    border: 2px #0027ff solid;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.FormLicense {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DialogItem {
+    width: 20%;
+    height: 50px;
+    padding: 20px;
+    background: #c8c8c8;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.DialogItem img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 

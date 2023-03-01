@@ -11,3 +11,27 @@ export const wolf = ["Замечено: лучшие биатлонисты Ро
     "- Я в Китае буду зваться братцем вуем!\n" +
     "- А я в Китае буду зваться братцем зуем! - отвечай заяц.\n" +
     "- А я, пожалуй, не поеду! - возражает хомяк.\n"]
+
+
+export const users = [
+    {
+        "id": 1,
+        "name": "Lumine"
+    },
+    {
+        "id": 2,
+        "name": "Aether"
+    },
+    {
+        "id": 3,
+        "name": "Walter White"
+    },
+    {
+        "id": 4,
+        "name": "Jordan Belfort"
+    },
+    {
+        "id": 5,
+        "name": "Antonio Montana"
+    }
+]
